@@ -18,12 +18,12 @@ elBtn.addEventListener("click", function(e){
   
 
   if ((!weather , money , work)) {
-      message = "havo yomonligi sababli bora olmaymiz"
+      message = "sayohatga bormaymiz "
   }else if (weather , !money) {
       message= "pul yetarli emas "  
   }else if (weather && money && !work && !health){
     message = "Afsus sayohatga bora olmaymiz:("
-  } else if (!weather && !money && !work && !health && !mood){
+  } else if (!weather && !money && !work && !health ){
     message = "Afsus sayohatga bora olmaymiz:("
   }else{
     message = "Uraaa! Sayohatga boramiz!"
